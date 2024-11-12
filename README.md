@@ -1,48 +1,33 @@
 # VisterVision - Prototype 0.1
 
-##Progress Report on VisorVision Project
+## Project Overview
+The VisorVision project aims to create an Augmented Reality (AR) assistive system for individuals with prosopagnosia (face blindness) or short-term memory loss. This system will leverage facial recognition technology to provide real-time identification and relevant contextual information through a wearable AR device, ultimately enhancing daily interactions and fostering independence for users.
 
-##Main Objective
-The main goal of the VisorVision project is to create an AR-based assistive system designed for individuals facing face blindness (prosopagnosia) or short-term memory loss. The system will integrate facial recognition capabilities to provide real-time identification and relevant contextual overlays through a wearable AR device, thereby enhancing daily interactions and independence for users.
+# Progress
+## Initial System Development:
 
-##Progress to Date
-
-##Initial System Development:
-The initial focus has been on building foundational components for environment understanding and motion detection. This development is crucial for ensuring accurate scene awareness, which is necessary for facial recognition and displaying relevant contextual data.
-
-##Key Features Implemented:
-##Environment Detection:
-Contour detection and sorting algorithms were developed to identify prominent shapes in the camera feed and display them with highlighted edges. Morphological transformations are applied for noise reduction.
-
-##Object and Motion Detection:
-Implemented Canny edge detection and motion detection functionalities to identify object edges and detect movements within the frame. The processed output is displayed in real-time for evaluation and tuning.
-
-##Light Estimation:
-Developed a brightness analysis feature that estimates average light levels in the camera’s view, useful for calibrating AR overlays under varying light conditions.
-
-##Smoothing Algorithms:
+# Environment Understanding:
+Implemented algorithms for contour detection and sorting to identify prominent shapes in the camera feed (highlighted edges).
+Morphological transformations applied for noise reduction.
+Object and Motion Detection:
+Developed functionalities for Canny edge detection and motion detection to identify object edges and movement within the frame.
+Processed outputs displayed in real-time for evaluation and tuning.
+Light Estimation:
+Implemented a brightness analysis feature to estimate average light levels in the camera's view, enabling calibration for AR overlays under various lighting conditions.
+Smoothing Algorithms:
 Integrated a smoothing algorithm to stabilize bounding boxes around detected objects, reducing flickering and improving display stability.
+Current Outputs:
 
-#Current Outputs
+Real-time display of contour and edge detection
+Object and motion detection outputs alongside light estimation results
+Processed camera frames showcasing environment understanding capabilities with visual overlays for testing and refinement
+Optimized and stable display with smoothed bounding boxes for enhanced user experience during testing
+Next Steps
+Facial Recognition Integration: Collaboration with the API team to integrate facial recognition capabilities, focusing on capturing and processing facial data for accurate identification in real-world scenarios.
+AR Overlay Development: Developing AR overlays using Unity to display identifying information in real time, ensuring cross-platform functionality.
+Hardware and Component Selection: Completing testing of hardware components such as ESP32-Cam modules to facilitate smooth integration with mobile devices.
+Prototype Creation: Building a working prototype showcasing a functional AR glasses system with facial recognition for demonstration purposes.
+System Optimization: Focus on optimizing real-time performance, minimizing latency, and enhancing detection accuracy to ensure a seamless user experience.
 
-- Real-time contour detection and edge detection display.
-- Object and motion detection outputs presented alongside light estimation results.
-- Environment understanding capability showcased through processed camera frames, with visual overlays for testing and refinement.
-- Optimized and stable display with smoothed bounding boxes, enhancing user experience during testing.
-
-#Next Steps
-
-- Facial Recognition Integration:
-Collaborate with the API team for integrating facial recognition capabilities. Focus on capturing and processing facial data for accurate identification in real-world scenarios.
-
-- AR Overlay Development:
-Develop AR overlays that can display identifying information in real time, using Unity to support cross-platform functionality.
-
-- Hardware and Component Selection:
-Complete testing of hardware components like the ESP32-Cam modules for effective integration with mobile devices.
-
-- Prototype Creation:
-Build a prototype showcasing a working AR glasses system with facial recognition for demo purposes.
-
-- System Optimization:
-Focus on optimizing real-time performance, reducing latency, and enhancing detection accuracy to ensure seamless user experiences.
+### License
+Specify the license under which the project is distributed (e.g., MIT License).

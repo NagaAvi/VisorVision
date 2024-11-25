@@ -1,4 +1,4 @@
-# VisterVision - Prototype 0.1
+# VisorVision - Prototype 0.1
 
 # Project Overview
 The VisorVision project aims to create an Augmented Reality (AR) assistive system for individuals with prosopagnosia (face blindness) or short-term memory loss. This system will leverage facial recognition technology to provide real-time identification and relevant contextual information through a wearable AR device, ultimately enhancing daily interactions and fostering independence for users.
